@@ -11,19 +11,29 @@ public class Activate_Deactivate_GameObjects : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //if (_mouseControl._leftMouseClick)
+        //{
+        //    Debug.Log("Left Mouse Cliked");
+        //    GameObjectToDeactivate.SetActive(true);
+        //}
+        //if (!_mouseControl._leftMouseClick)
+        //{
+        //    GameObjectToDeactivate.SetActive(false);
+        //}
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
         if (_mouseControl._leftMouseClick)
         {
+            Debug.Log("(Activate_Deactivate_GameObjects.cs) Left Mouse Cliked");
             GameObjectToDeactivate.SetActive(true);
         }
         if (!_mouseControl._leftMouseClick)
         {
             GameObjectToDeactivate.SetActive(false);
         }
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }

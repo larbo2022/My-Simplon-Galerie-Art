@@ -34,7 +34,7 @@
                 },
                 {
                     "name": "MouseZoomScrollY",
-                    "type": "Value",
+                    "type": "PassThrough",
                     "id": "8ebbed2c-4fe3-4336-b7e0-2a1bb08445f8",
                     "expectedControlType": "Axis",
                     "processors": "",
@@ -170,7 +170,7 @@
                     "path": "<Mouse>/scroll/y",
                     "interactions": "",
                     "processors": "Clamp(min=-4,max=4)",
-                    "groups": "",
+                    "groups": "Keyboard&Mouse",
                     "action": "MouseZoomScrollY",
                     "isComposite": false,
                     "isPartOfComposite": false

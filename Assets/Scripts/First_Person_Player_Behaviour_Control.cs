@@ -25,6 +25,8 @@ public class First_Person_Player_Behaviour_Control : MonoBehaviour
     {
         controls = new My_First_Person_Player_Controls();
         controller = GetComponent<CharacterController>();
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
     // Update is called once per frame

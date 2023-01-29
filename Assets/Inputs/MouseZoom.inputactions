@@ -2,28 +2,28 @@
     "name": "MouseZoom",
     "maps": [
         {
-            "name": "Player",
+            "name": "Camera-Object",
             "id": "9ae09b20-5942-42ad-9eb9-c8e81df25b71",
             "actions": [
                 {
-                    "name": "MouseZoomScrollY",
-                    "type": "Value",
+                    "name": "Camera(Mouse)",
+                    "type": "PassThrough",
                     "id": "f539739d-07a4-4b8f-8bd7-6ac26c43c5c4",
                     "expectedControlType": "Axis",
                     "processors": "",
                     "interactions": "",
-                    "initialStateCheck": true
+                    "initialStateCheck": false
                 }
             ],
             "bindings": [
                 {
                     "name": "",
-                    "id": "463b6d6b-7fbe-4102-b480-ca66a352aaa7",
+                    "id": "47fbe1f4-525b-4cf1-a987-979a84faf868",
                     "path": "<Mouse>/scroll/y",
                     "interactions": "",
-                    "processors": "Clamp(min=-4,max=4)",
-                    "groups": "",
-                    "action": "MouseZoomScrollY",
+                    "processors": "",
+                    "groups": "Keyboard&Mouse",
+                    "action": "Camera(Mouse)",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
