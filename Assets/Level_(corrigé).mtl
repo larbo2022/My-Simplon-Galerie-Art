@@ -1,0 +1,24 @@
+newmtl Lightmap-0_comp_light
+Kd 1 1 1
+d 1
+
+newmtl Herringbone_Yellow
+map_Pm T_Herringbone_MetallicSmoothness.png
+bump T_Herringbone_Normal.png
+map_Kd T_Herringbone _Yellow_Albedo.png
+Kd 1 1 1
+d 1
+
+newmtl wall16
+map_Kd wall16_Diffuse.tif
+Kd 0.8970588 0.8970588 0.8970588
+d 1
+
+newmtl BasketWeaveBricks_URPShader
+Kd 1.0 1.0 1.0
+d 1.0
+
+newmtl BathroomTiles_WMShader
+Kd 1.0 1.0 1.0
+d 1.0
+
